@@ -3,7 +3,6 @@ const axios = require("axios");
 const dotenv=require("dotenv");
 dotenv.config();
 const alphaVantageApiKey = "demo";
-//const openaiApiKey = "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";
 
 async function fetchDataFromAlphaVantage() {
   try {
