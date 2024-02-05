@@ -1,0 +1,59 @@
+/* Tools.css */
+
+.container-fluid {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .frequency-selector {
+    margin-bottom: 20px;
+  }
+  
+  .tools {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .company-info {
+    margin-top: 20px;
+  }
+  
+  /* Additional styling for active list group item */
+  .list-group-item.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  /* Tools.css */
+
+.main-container {
+    background-color: #fff; /* Set background color to white */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-container {
+    margin: 0 auto; /* Center the content container */
+  }
+
+  .search-bar button.btn-success {
+    background-color: #28a745; /* Green color for success button */
+    border-color: #28a745; /* Border color for success button */
+  }
+
+  .list-group{
+    cursor: pointer;
+  }
+  

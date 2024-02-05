@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./pexels-tima-miroshnichenko-7567443.jpg') center/cover no-repeat fixed;
+  background-color: #f2f2f2;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes up the full height of the viewport */
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding to the navbar for better spacing */
+}
+
+.logo-container img {
+  height: 40px;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-container {
+    padding: 0; /* Remove padding in mobile view */
+  }
+
+  .navbar-items {
+    width: 1px;
+    flex-grow: 1; /* Allow items to take up available space in mobile view */
+    justify-content: flex-end; /* Align items to the right in mobile view */
+  }
+
+  .navbar a {
+    padding: 14px; /* Adjust padding for better spacing in mobile view */
+  }
+}

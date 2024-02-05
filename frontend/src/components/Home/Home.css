@@ -1,0 +1,62 @@
+.home-container {
+    text-align: center;
+    margin: 150px 10%;
+    color: #fff; /* Text color set to white for better contrast with a dark background */
+  }
+  
+  .home-container h1 {
+    font-size: 2.5em; /* Increase the font size for the main heading */
+    margin-bottom: 20px; /* Add some space below the main heading */
+  }
+  
+  .home-container p {
+    font-size: 1.2em; /* Increase the font size for the paragraph */
+    margin-bottom: 30px; /* Add more space below the paragraph */
+  }
+  
+  .button-container {
+    margin-top: 30px; /* Increase the space above the buttons */
+  }
+  
+  .button-container button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: background-color 0.3s ease; /* Add a smooth transition for button hover effect */
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .home-container {
+      margin: 150px 5%;
+    }
+  
+    .button-container button {
+      width: 100%; 
+      margin-bottom: 15px; 
+    }
+  }
+
+  .home-icon {
+    font-size: 20px; 
+    color: #92a7bf; 
+    cursor: pointer; 
+    margin-left: 15px; 
+    transition: color 0.3s ease; 
+  }
+  
+  .home-icon:hover {
+    color: #0056b3; 
+  }
+  
